@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---------------------- TAGS ----------------------*/
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+body{
+    background: url(../imagens/background.jpg) no-repeat top center/cover fixed;
+}
+
+article{
+    background-image: url(../imagens/frame-iphone.png);
+    height: 627px;
+    width: 311px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+iframe{
+    border: none;
+    position: relative;
+    height: 472px;
+    width: 269px;
+    left: 20px;
+    top: 80px;
+}
+
+nav{
+    text-align: right;
+}
+nav a{
+    border-radius: 154px; /* o valor de 50% tb funciona*/
+    background: black no-repeat center/cover;
+    height: 50px;
+    width: 50px;
+    margin: 20px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.342);
+    display: inline-block;
+    transition-duration: 0.5s;
+    border: 1px solid white;
+}
+nav a:hover{
+    border: 2px solid yellow;
+    box-shadow: 0px 0px 4px 5px rgba(255, 255, 0, 0.527);
+    transform: translate(-10px);
+    transition-duration: 1s;
+    box-sizing: border-box;
+}
+
+
+
+
+/*---------------------- IDS ----------------------*/
+#home{
+    background-image: url(../imagens/logo-home.jpg);
+}
+
+#github{
+    background-image: url(../imagens/logo-github.jpg);
+}
+
+#curso-em-video{
+    background-image: url(../imagens/logo-curso_em_video.jpg);
+}
